@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  movie:
+    image: movie
+    ports:
+      - "81:80"
+  television:
+    image: television
+    ports:
+      - "82:80"
+  recharge:
+    image: recharge
+    ports:
+      - "83:80"
