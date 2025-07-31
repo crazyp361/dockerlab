@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   movie:
-    image: movie
+    image: movies
     ports:
       - "81:80"
   television:
